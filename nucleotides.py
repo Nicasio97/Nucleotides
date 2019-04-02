@@ -58,10 +58,3 @@ def add_something_every_70bp(string,something,beginning=0,every=70):
 		i+=1
 	return word			
 	
-#Si la idea es a partir de un archivo x obtener una secuencia y que tenga un "\\n" cada 70pb,
-#para luego hacer una busqueda en otro archivo z.fasta  de la sequencia x, entonces no sirve.
-#No sirve porque no se a que altura se encuentra el salto de linea en el archivo z con el que
-#quiero contrastar la sequencia x.  
-
-#el salto de linea real se encuentra terminando esta sequencia: cctacgctcctgtacaacacccaccc.
-#es decir a los 26pb para luego cada 70pb tener los saltos. UNICO PUNTO ENCONTRA
